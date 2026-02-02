@@ -64,14 +64,14 @@ const PricingCards = () => {
             key={plan.name}
             className={cn(
               "flex flex-col w-full border-border rounded-xl",
-              plan.name === "EDGE + MOCK GDPI" && "border-2 border-primary"
+              plan.name === "EDGE + MOCK GDPI" && "border-2 border-yellow-600"
             )}
           >
             <CardHeader
               className={cn(
                 "border-b border-border",
                 plan.name === "EDGE + MOCK GDPI"
-                  ? "bg-primary/[0.07]"
+                  ? "bg-yellow-600/[0.07]"
                   : "bg-foreground/[0.03]"
               )}
             >
@@ -91,7 +91,7 @@ const PricingCards = () => {
             <CardContent className="pt-6 space-y-4">
               {plan.features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <CheckCircleIcon className="text-primary w-4 h-4" />
+                  <CheckCircleIcon className="text-yellow-600 w-4 h-4" />
                   <TooltipProvider>
                     <Tooltip delayDuration={0}>
                       <TooltipTrigger asChild>
@@ -131,14 +131,14 @@ const PricingCards = () => {
             key={plan.name}
             className={cn(
               "flex flex-col w-full border-border rounded-xl relative",
-              plan.name === "EDGE + MOCK GDPI" && "border-2 border-primary"
+              plan.name === "EDGE + MOCK GDPI" && "border-2 border-yellow-600"
             )}
           >
             <CardHeader
               className={cn(
                 "border-b border-border",
                 plan.name === "EDGE + MOCK GDPI"
-                  ? "bg-primary/[0.07]"
+                  ? "bg-yellow-600/[0.07]"
                   : "bg-foreground/[0.03]"
               )}
             >
@@ -158,7 +158,7 @@ const PricingCards = () => {
             <CardContent className="pt-6 space-y-4">
               {plan.features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <CheckCircleIcon className="text-primary w-4 h-4" />
+                  <CheckCircleIcon className="text-yellow-600 w-4 h-4" />
                   <TooltipProvider>
                     <Tooltip delayDuration={0}>
                       <TooltipTrigger asChild>

@@ -46,32 +46,34 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        "sticky top-0 inset-x-0 h-16 w-full border-b border-transparent z-10 select-none",
-        scroll && "border-background/80 bg-background/40 backdrop-blur-md"
+        "fixed top-5 left-1/2 transform -translate-x-1/2 w-[85%] max-w-6xl h-16 z-50 select-none",
+        "bg-black/35 backdrop-blur-[10px] rounded-2xl",
+        "shadow-[0_8px_30px_rgba(0,0,0,0.4)] shadow-[inset_0_0_20px_rgba(255,255,255,0.05)]"
       )}
     >
       <AnimationContainer reverse delay={0.1} className="size-full">
-        <MaxWidthWrapper className="flex items-center justify-between">
+        <MaxWidthWrapper className="flex items-center justify-between h-full px-6">
           <div className="flex items-center space-x-12">
-            <Link href="/#home" className="w-32">
+            <Link href="/#home" className="w-28 flex-shrink-0">
               <Image
                 src={"/assets/logo.png"}
                 alt="logo"
                 height={1024}
                 width={1024}
+                className="text-white"
               />
               {/* <span className="text-lg font-bold font-heading !leading-none">
                 EDGE 25
               </span> */}
             </Link>
 
-            <NavigationMenu className="hidden lg:flex">
-              <NavigationMenuList>
+            <NavigationMenu className="hidden lg:flex flex-1 justify-center">
+              <NavigationMenuList className="gap-7">
                 {NAV_LINKS.map((link) => (
                   <NavigationMenuItem key={link.title}>
                     {link.menu ? (
                       <>
-                        <NavigationMenuTrigger>
+                        <NavigationMenuTrigger className="text-white/75 hover:text-white text-sm font-medium">
                           {link.title}
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
@@ -122,7 +124,7 @@ const Navbar = () => {
                         passHref
                       >
                         <NavigationMenuLink
-                          className={navigationMenuTriggerStyle()}
+                          className={cn(navigationMenuTriggerStyle(), "text-white/75 hover:text-white text-sm font-medium bg-transparent hover:bg-white/10")}
                         >
                           {link.title}
                         </NavigationMenuLink>
@@ -134,22 +136,22 @@ const Navbar = () => {
             </NavigationMenu>
           </div>
 
-          <div className="hidden lg:flex items-center">
+          <div className="hidden lg:flex items-center flex-shrink-0">
             {user ? (
               <div className="flex items-center gap-2">
                 <>
                   {!pathname.includes("dashboard") ? (
-                    <Button>
+                    <Button className="bg-[#f5ff00] text-black font-semibold hover:bg-[#f5ff00]/90 hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(245,255,0,0.4)] transition-all duration-200 rounded-full px-6">
                       <Link href="/dashboard">Dashboard</Link>
                     </Button>
                   ) : (
-                    <Button>
+                    <Button className="bg-[#f5ff00] text-black font-semibold hover:bg-[#f5ff00]/90 hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(245,255,0,0.4)] transition-all duration-200 rounded-full px-6">
                       <Link href="/">Home</Link>
                     </Button>
                   )}
                   <Button
                     onClick={signOut}
-                    className={"w-full"}
+                    className={"w-full bg-transparent border border-white/20 text-white hover:bg-white/10 rounded-full"}
                     variant="outline"
                   >
                     Sign Out

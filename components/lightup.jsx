@@ -127,7 +127,7 @@ const Lightup = ({ title, desc }) => {
               <div className="mt-6 flex justify-center space-x-4">
                 <Button
                   onClick={openContactModal}
-                  className="bg-transparent border text-white hover:bg-white hover:text-black transition duration-500"
+                  className="bg-transparent border border-muted-tan text-muted-tan hover:bg-muted-tan hover:text-charcoal transition duration-500"
                 >
                   Contact Us
                 </Button>
