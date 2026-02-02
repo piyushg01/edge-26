@@ -8,6 +8,15 @@ Clonig the repo
 git clone https://github.com/khushighumre/edge-26
 cd edge-26
 ```
+Create .env file following the variables in .env.local as follow
+
+```bash
+NEXT_PUBLIC_SITE_URL=http://localhost:3001
+NEXT_PUBLIC_APP_NAME=EDGE 25
+CONVEX_DEPLOYMENT=dev:affable-labrador-336
+AUTH_SECRET=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6
+NEXT_PUBLIC_CONVEX_URL=https://affable-labrador-336.convex.cloud
+```
 
 Install dependencies
 
