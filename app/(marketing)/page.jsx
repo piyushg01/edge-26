@@ -16,6 +16,7 @@ import { scrollToSection } from "@/utils/functions/scrollTo";
 import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 
+
 const HomePage = () => {
   return (
     <div className="overflow-x-hidden scrollbar-hide size-full">

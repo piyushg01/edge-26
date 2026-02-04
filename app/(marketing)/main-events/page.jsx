@@ -16,8 +16,7 @@ const MainEventPage = () => {
               MOCK GDPI
             </h1>
             <p className="text-base md:text-lg mt-6 text-center text-muted-foreground">
-              Prepare for your dream job with our comprehensive mock group
-              discussions and personal interviews.
+              Refine your communication style and gain a competitive edge with our mock group discussions and personal interviews
             </p>
           </div>
         </AnimationContainer>
@@ -33,8 +32,7 @@ const MainEventPage = () => {
               />
               <MagicBadge title="Group Disscussions" />
               <p className="text-muted-foreground text-center">
-                Immerse yourself in group sessions tailored to equip individuals
-                with essential skills for boosting confidence in the job market.
+                Stand out from the crowd in group sessions tailored to equip individuals with the collaborative skills essential for boosting confidence in the job market.
               </p>
             </div>
           </AnimationContainer>
@@ -49,9 +47,7 @@ const MainEventPage = () => {
               />
               <MagicBadge title="Personal Interviews" />
               <p className="text-muted-foreground text-center">
-                Experience the interview with one-on-one
-                sessions providing personalized feedback to enhance
-                communication skills and proficiency.
+                Face the experts in one-on-one sessions providing personalized feedback to enhance communication skills and individual proficiency.
               </p>
             </div>
           </AnimationContainer>
