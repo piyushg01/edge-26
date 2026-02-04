@@ -47,12 +47,12 @@ const HomePage = () => {
             </p>
             <div className="flex items-center justify-center whitespace-nowrap gap-4 z-50">
               <Button
-                className="flex items-center"
-                onClick={() => scrollToSection("pricing")}
-              >
-                Be part of event now
-                <ArrowRightIcon className="w-4 h-4 ml-2" />
-              </Button>
+  className="flex items-center bg-[#EF4444] text-white font-semibold hover:bg-[#DC2626] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(239,68,68,0.4)] transition-all duration-200 rounded-full px-6"
+  onClick={() => scrollToSection("pricing")}
+>
+  Be part of event now
+  <ArrowRightIcon className="w-4 h-4 ml-2" />
+</Button>
             </div>
           </AnimationContainer>
 
