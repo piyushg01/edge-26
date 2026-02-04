@@ -32,17 +32,19 @@ const HomePage = () => {
               <EventCountdown />
             </button>
             <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
-              Explore, Develop, Grow, Excel with{" "}
               <span className="text-transparent bg-gradient-to-r from-red-700 via-yellow-600 to-red-700 bg-clip-text inline-bloc">
-                EDGE 26
+                EDGE &#39;26
+              </span>
+              <span className="text-white">
+                {" "} <br></br>GENESIS OF TELOS
               </span>
             </h1>
             <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
-              E.D.G.E is VIT Pune's Annual Student Summit.
+              From the roots of your Genesis to the peak of your Telos. Master the climb. Find your EDGE.
               <br className="hidden md:block" />
               <span className="hidden md:block">
-                A transformative platform offering students a unique opportunity
-                to gain practical insights from industry mentors.
+                
+                The blueprint is being drawn and the foundation is set. We are tracing the path from your origin to true excellence.
               </span>
             </p>
             <div className="flex items-center justify-center whitespace-nowrap gap-4 z-50">
