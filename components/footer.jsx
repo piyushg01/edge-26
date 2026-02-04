@@ -22,7 +22,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-muted-foreground mt-4 text-sm text-start">
-              Explore, Develop, Grow, Excel with EDGE 25
+              Explore, Develop, Grow, Excel with EDGE 26
             </p>
             <span className="mt-4 text-neutral-200 text-sm flex items-center">
               Organized by{" "}

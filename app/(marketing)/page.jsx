@@ -34,7 +34,7 @@ const HomePage = () => {
             <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
               Explore, Develop, Grow, Excel with{" "}
               <span className="text-transparent bg-gradient-to-r from-red-700 via-yellow-600 to-red-700 bg-clip-text inline-bloc">
-                EDGE 25
+                EDGE 26
               </span>
             </h1>
             <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
@@ -177,7 +177,7 @@ const HomePage = () => {
               Choose a ticket that works for you
             </h2>
             <p className="mt-4 text-center text-lg text-muted-foreground max-w-lg">
-              Participate in EDGE 25 today and take one step ahead.
+              Participate in EDGE 26 today and take one step ahead.
             </p>
           </div>
         </AnimationContainer>
