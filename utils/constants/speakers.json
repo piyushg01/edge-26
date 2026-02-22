@@ -1,22 +1,12 @@
 [
     {
-        "name": "Manjyoti Parasar",
-        "image": "speakers/speaker1.jpg",
-        "description": "EDGE’25 presents an exclusive 𝐒𝐩𝐞𝐚𝐤𝐞𝐫 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 with 𝐌𝐚𝐧𝐣𝐲𝐨𝐭𝐢 𝐏𝐚𝐫𝐚𝐬𝐚𝐫, a renowned 𝐋𝐢𝐟𝐞 𝐂𝐨𝐚𝐜𝐡 & 𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐄𝐱𝐩𝐞𝐫𝐭 who’s helped thousands break through limitations and create extraordinary success."
+        "name": "Siddharth Kothari",
+        "image": "",
+        "description": "EDGE'26 presents an exclusive 𝐒𝐩𝐞𝐚𝐤𝐞𝐫 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 with 𝐒𝐢𝐝𝐝𝐡𝐚𝐫𝐭𝐡 𝐊𝐨𝐭𝐡𝐚𝐫𝐢, a Google professional and proud VIIT Pune alumnus, who is shaping innovation at a global scale and inspiring students to bridge the gap between campus potential and corporate excellence."
     },
     {
-        "name": "Sakshi Jain",
-        "image": "speakers/speaker3.jpg",
-        "description": "Abhivriddhi presents an exclusive 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗕𝗿𝗮𝗻𝗱𝗶𝗻𝗴 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽 to help you:✅ Craft a powerful personal brand✅ Elevate your online presence✅ Stand out in a competitive world"
-    },
-    {
-        "name": "Abhijeet Awsarmal",
-        "image": "speakers/speaker2.jpg",
-        "description": "🔥Featuring 𝗔𝗯𝗵𝗶𝗷𝗲𝗲𝘁 𝗔𝘄𝘀𝗮𝗿𝗺𝗮𝗹, a personal branding wizard and digital strategist who has helped countless professionals transform their online presence."
-    },
-    {
-        "name": "Dnyanesh Khot",
-        "image": "speakers/speaker4.jpg",
-        "description": "To guide you Dnyanesh Khot—Senior Manager at Imarticus Learning, with experience at INTTRVU.ai, ExcelIR, and Unacademy! He’s here to break down finance in the simplest way possible."
+        "name": "Ipsita Das",
+        "image": "/speakers/WhatsApp Image 2026-02-21 at 8.45.04 PM.jpeg",
+        "description": "Ipsita Das, a TEDx Speaker and personality transformation coach, helps individuals break limiting beliefs and step into their most confident, purpose-driven selves."
     }
 ]
