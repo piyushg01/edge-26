@@ -1,4 +1,4 @@
-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "EDGE 25";
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "EDGE 26";
 
 export const APP_DOMAIN = `https://${process.env.NEXT_PUBLIC_APP_DOMAIN}`;
 

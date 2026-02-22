@@ -36,7 +36,7 @@ const HomePage = () => {
               <span className="text-transparent bg-gradient-to-r from-red-700 via-yellow-600 to-red-700 bg-clip-text inline-bloc">
                 EDGE &#39;26
               </span>
-              <span className="text-white">
+              <span className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
                 {" "} <br></br>GENESIS OF TELOS
               </span>
             </h1>

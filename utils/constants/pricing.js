@@ -1,83 +1,76 @@
 export const PLANS = [
   {
     name: "EDGE",
-    info: "For most individuals",
+    info: "Day 1 Access",
     price: {
-      monthly: 119,
-      yearly: 141,
+      monthly: 150,   // Vitian
+      yearly: 150,    // Non-Vitian
     },
     features: [
-      { text: "Speaker Sessions" },
-      { text: "Money Made Simple" },
-      { text: "AI-Powered Productivity" },
-      {
-        text: "Personal Branding",
-      },
+      { text: "Panel Discussion" },
+      { text: "Workshop" },
+      { text: "Speaker Session" },
+      { text: "Jamming Session (Band / Standup)" },
     ],
-    link: "https://learner.vierp.in/event/EDGE'252024",
+    link: "https://learner.vierp.in/event/EDGE2024",
   },
   {
     name: "EDGE + MOCK GDPI",
-    info: "For best experience",
+    info: "Complete Event Access (Day 1 + Day 2)",
     price: {
-      monthly: 149,
-      yearly: 176,
+      monthly: 250,   // Vitian
+      yearly: 250,    // Non-Vitian
     },
     features: [
+      { text: "All Day 1 Events" },
+      { text: "Technical Test (Mock GDPI)" },
       { text: "Group Discussions" },
-      { text: "Personal Interviews" },
+      { text: "Technical & HR Interviews" },
       { text: "Speaker Sessions" },
-      { text: "Money Made Simple" },
-      { text: "AI-Powered Productivity" },
-      {
-        text: "From Profile to Placement",
-      },
-      {
-        text: "Personal Branding",
-      },
+      { text: "Personal Branding" },
     ],
     link: "https://learner.vierp.in/event/EDGE-With-Mock-GDPI2024",
   },
   {
     name: "MOCK GDPI",
-    info: "Placement Specific",
+    info: "Day 2 Placement Specific",
     price: {
-      monthly: 89,
-      yearly: 106,
+      monthly: 150,   // Vitian
+      yearly: 150,    // Non-Vitian
     },
-    features: [{ text: "Group Discussions" }, { text: "Personal Interviews" }],
+    features: [
+      { text: "Technical Test (Under Mock GDPI)" },
+      { text: "Group Discussions" },
+      { text: "Personal Interviews" },
+    ],
     link: "https://learner.vierp.in/event/MOCK-GDPI2024",
   },
 ];
 
 export const PRICING_FEATURES = [
   {
-    text: "Shorten links",
-    tooltip: "Create shortened links",
+    text: "Panel Discussions",
+    tooltip: "Industry-focused expert panel discussions",
   },
   {
-    text: "Track clicks",
-    tooltip: "Track clicks on your links",
+    text: "Mock Group Discussions",
+    tooltip: "Real interview-style GD experience",
   },
   {
-    text: "See top countries",
-    tooltip: "See top countries where your links are clicked",
+    text: "Personal Interviews",
+    tooltip: "One-on-one mock interview sessions",
   },
   {
-    text: "Upto 10 tags",
-    tooltip: "Add upto 10 tags to your links",
+    text: "Career Guidance",
+    tooltip: "Mentorship and career roadmap guidance",
   },
   {
-    text: "Community support",
-    tooltip: "Community support is available for free users",
+    text: "Resume Building",
+    tooltip: "AI-assisted resume building sessions",
   },
   {
-    text: "Priority support",
-    tooltip: "Get priority support from our team",
-  },
-  {
-    text: "AI powered suggestions",
-    tooltip: "Get AI powered suggestions for your links",
+    text: "Placement Preparation",
+    tooltip: "Focused preparation for placement interviews",
   },
 ];
 
