@@ -10,33 +10,16 @@ export const DEFAULT_AVATAR_URL =
 
 export const PAGINATION_LIMIT = 10;
 
+/* ===== SPONSORS ===== */
+/* ONLY GEEKSFORGEEKS */
 export const COMPANIES = [
   {
-    name: "Asana",
-    logo: "/assets/1.png",
-  },
-  {
-    name: "Tidal",
-    logo: "/assets/2.png",
-  },
-  {
-    name: "Innovaccer",
-    logo: "/assets/3.png",
-  },
-  {
-    name: "Linear",
-    logo: "/assets/4.png",
-  },
-  {
-    name: "Raycast",
-    logo: "/assets/5.png",
-  },
-  {
-    name: "Labelbox",
-    logo: "/assets/6.png",
+    name: "GeeksforGeeks",
+    logo: "/assets/geeksforgeeks.png",
   },
 ];
 
+/* ===== PROCESS ===== */
 export const PROCESS = [
   {
     title: "Click Register",
@@ -60,6 +43,7 @@ export const PROCESS = [
   },
 ];
 
+/* ===== FEATURES ===== */
 export const FEATURES = [
   {
     title: "Link shortening",
@@ -87,6 +71,7 @@ export const FEATURES = [
   },
 ];
 
+/* ===== REVIEWS ===== */
 export const REVIEWS = [
   {
     name: "Michael Smith",
@@ -94,7 +79,7 @@ export const REVIEWS = [
     avatar: "https://randomuser.me/api/portraits/men/1.jpg",
     rating: 5,
     review:
-      "This tool is a lifesaver! Managing and tracking my links has never been easier. A must-have for anyone dealing with numerous links.",
+      "This tool is a lifesaver! Managing and tracking my links has never been easier.",
   },
   {
     name: "Emily Johnson",
@@ -102,7 +87,7 @@ export const REVIEWS = [
     avatar: "https://randomuser.me/api/portraits/women/1.jpg",
     rating: 4,
     review:
-      "Very useful app! It has streamlined my workflow considerably. A few minor bugs, but overall a great experience.",
+      "Very useful app! It has streamlined my workflow considerably.",
   },
   {
     name: "Daniel Williams",
@@ -110,7 +95,7 @@ export const REVIEWS = [
     avatar: "https://randomuser.me/api/portraits/men/2.jpg",
     rating: 5,
     review:
-      "I've been using this app daily for months. The insights and analytics it provides are invaluable. Highly recommend it!",
+      "I've been using this app daily for months. Highly recommend it!",
   },
   {
     name: "Sophia Brown",
@@ -118,46 +103,6 @@ export const REVIEWS = [
     avatar: "https://randomuser.me/api/portraits/women/2.jpg",
     rating: 4,
     review:
-      "This app is fantastic! It offers everything I need to manage my links efficiently.",
-  },
-  {
-    name: "James Taylor",
-    username: "@jamestaylor",
-    avatar: "https://randomuser.me/api/portraits/men/3.jpg",
-    rating: 5,
-    review:
-      "Absolutely love this app! It's intuitive and feature-rich. Has significantly improved how I manage and track links.",
-  },
-  {
-    name: "Olivia Martinez",
-    username: "@oliviamartinez",
-    avatar: "https://randomuser.me/api/portraits/women/3.jpg",
-    rating: 4,
-    review:
-      "Great app with a lot of potential. It has already saved me a lot of time. Looking forward to future updates and improvements.",
-  },
-  {
-    name: "William Garcia",
-    username: "@williamgarcia",
-    avatar: "https://randomuser.me/api/portraits/men/4.jpg",
-    rating: 5,
-    review:
-      "This app is a game-changer for link management. It's easy to use, extremely powerful and highly recommended!",
-  },
-  {
-    name: "Mia Rodriguez",
-    username: "@miarodriguez",
-    avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-    rating: 4,
-    review:
-      "I've tried several link management tools, but this one stands out. It's simple, effective.",
-  },
-  {
-    name: "Henry Lee",
-    username: "@henrylee",
-    avatar: "https://randomuser.me/api/portraits/men/5.jpg",
-    rating: 5,
-    review:
-      "This app has transformed my workflow. Managing and analyzing links is now a breeze. I can't imagine working without it.",
+      "This app is fantastic! It offers everything I need.",
   },
 ];
