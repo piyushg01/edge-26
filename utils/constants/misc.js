@@ -13,27 +13,27 @@ export const PAGINATION_LIMIT = 10;
 export const COMPANIES = [
   {
     name: "Asana",
-    logo: "/assets/1.png",
+    logo_new: "/assets/1.png",
   },
   {
     name: "Tidal",
-    logo: "/assets/2.png",
+    logo_new: "/assets/2.png",
   },
   {
     name: "Innovaccer",
-    logo: "/assets/3.png",
+    logo_new: "/assets/3.png",
   },
   {
     name: "Linear",
-    logo: "/assets/4.png",
+    logo_new: "/assets/4.png",
   },
   {
     name: "Raycast",
-    logo: "/assets/5.png",
+    logo_new: "/assets/5.png",
   },
   {
     name: "Labelbox",
-    logo: "/assets/6.png",
+    logo_new: "/assets/6.png",
   },
 ];
 

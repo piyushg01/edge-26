@@ -87,7 +87,7 @@ const HomePage = () => {
                   {COMPANIES.map((company) => (
                     <li key={company.name}>
                       <Image
-                        src={company.logo}
+                        src={company.logo_new}
                         alt={company.name}
                         width={1080}
                         height={1080}

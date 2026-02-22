@@ -59,10 +59,10 @@ const Navbar = () => {
       <AnimationContainer reverse delay={0.1} className="size-full">
         <MaxWidthWrapper className="flex items-center justify-between h-full px-6">
           <div className="flex items-center space-x-12">
-            <Link href="/#home" className="w-28 flex-shrink-0 transition-transform hover:scale-105 duration-200">
+            <Link href="/#home" className="w-44 flex-shrink-0 transition-transform hover:scale-105 duration-200">
               <Image
-                src={"/assets/logo.png"}
-                alt="logo"
+                src="/assets/logo_new.png"
+                alt="logo_new"
                 height={1024}
                 width={1024}
                 className="text-white drop-shadow-lg"

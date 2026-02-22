@@ -8,5 +8,20 @@
         "name": "Ipsita Das",
         "image": "/speakers/WhatsApp Image 2026-02-21 at 8.45.04 PM.jpeg",
         "description": "Ipsita Das, a TEDx Speaker and personality transformation coach, helps individuals break limiting beliefs and step into their most confident, purpose-driven selves."
+    },
+    {
+        "name": "Paras Atal",
+        "image": "speakers/paras_atal.jpg",
+        "description": "Paras Atal, SDE @ BNY and digital creator, shares practical insights on choosing the right career path across tech, non-tech, and alternative domains while building a strong personal brand alongside technical growth. He guides students on planning internships and projects strategically and navigating career confusion with clarity and confidence."
+    },
+    {
+        "name": "Dhawal Bhanushali",
+        "image": "speakers/dhawal_bhanushali.jpg",
+        "description": "Dhawal Bhanushali, 2nd Co-Founder & CCO @ Crewtangle and branding expert, shares valuable guidance on setting realistic career goals, building a powerful professional and personal brand, understanding industry expectations, and creating a structured roadmap for long-term growth and success."
+    },
+    {
+        "name": "Sohail S",
+        "image": "speakers/sohail_s.jpg",
+        "description": "Sohail S, Technical Trainer and Corporate & Academic Training Expert, conducts a focused workshop on creating professional resumes using AI tools. The session covers writing impactful resume bullet points, tailoring resumes for specific roles, analyzing resumes with ATS checkers, and structuring them effectively for placements and internships."
     }
 ]

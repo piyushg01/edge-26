@@ -14,11 +14,11 @@ const Footer = () => {
           <div className="flex flex-col items-start justify-start md:max-w-[200px]">
             <div className="flex items-start">
               <Image
-                src={"/assets/logo.png"}
-                alt="logo"
+                src="/assets/logo_new.png"
+                alt="logo_new"
                 height={720}
                 width={1024}
-                className="w-auto h-7"
+                className="w-auto h-12"
               />
             </div>
             <p className="text-muted-foreground mt-4 text-sm text-start">
