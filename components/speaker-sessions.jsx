@@ -3,17 +3,21 @@ import {
   CardContent,
   CardDescription,
   CardTitle,
+  CardFooter,
 } from "@/components/ui/card";
 import Image from "next/image";
 import MagicCard from "./ui/magic-card";
 import speakers from "@/utils/constants/speakers.json";
-// import { Instagram, Linkedin, Twitter } from "lucide-react";
+import { Instagram, Linkedin, Twitter } from "lucide-react";
 
 const SpeakerSessions = () => {
   return (
     <div className="flex flex-col items-center justify-center max-w-6xl mx-auto px-4 md:px-0">
-      <p className="text-3xl md:text-4xl lg:text-5xl font-semibold text-transparent bg-gradient-to-r from-red-700 via-yellow-600 to-red-700 bg-clip-text">Comming Soon...</p>
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* <p className="text-3xl md:text-4xl lg:text-5xl font-semibold text-transparent bg-gradient-to-r from-red-700 via-yellow-600 to-red-700 bg-clip-text">
+        Comming Soon...
+      </p> */}
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {speakers.map((speaker, id) => (
           <MagicCard key={id} className="p-0 md:p-0 relative w-80 sm:w-full">
             <Card className="group border-0 h-full">
@@ -28,6 +32,7 @@ const SpeakerSessions = () => {
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
+
                 <div className="flex flex-col items-start justify-start mt-4">
                   <CardTitle className="text-lg font-semibold text-foreground/80 group-hover:text-foreground transition-all duration-300">
                     {speaker.name}
@@ -37,6 +42,7 @@ const SpeakerSessions = () => {
                   </CardDescription>
                 </div>
               </CardContent>
+
               <CardFooter className="flex justify-evenly items-center w-full">
                 <Instagram className="cursor-pointer hover:scale-110 transition" />
                 <Linkedin className="cursor-pointer hover:scale-110 transition" />
@@ -45,7 +51,7 @@ const SpeakerSessions = () => {
             </Card>
           </MagicCard>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };
