@@ -1,4 +1,4 @@
-import { HelpCircleIcon, UserRoundSearch, CalendarFold } from "lucide-react";
+import { HelpCircleIcon, UserRoundSearch, CalendarFold, Mail } from "lucide-react";
 
 export const NAV_LINKS = [
   {
@@ -22,6 +22,12 @@ export const NAV_LINKS = [
         tagline: "Flagship Content.",
         href: "/main-events",
         icon: CalendarFold,
+      },
+      {
+        title: "Letter to Self",
+        tagline: "Write a letter to your future self.",
+        href: "https://example.com/letter-to-self",
+        icon: Mail,
       },
     ],
   },

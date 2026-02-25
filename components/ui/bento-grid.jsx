@@ -8,6 +8,7 @@ import {
   UsersIcon,
   ListIcon,
   User,
+  Mail,
 } from "lucide-react";
 import Link from "next/link";
 import {
@@ -159,6 +160,32 @@ export const CARDS = [
         ]}
         className="absolute right-0 top-10 origin-top rounded-md border border-border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:scale-105"
       />
+    ),
+  },
+  {
+    Icon: Mail,
+    name: "Letter to Self",
+    description: "Write a letter to your future self.",
+    href: "https://example.com/letter-to-self",
+    cta: "Write Now",
+    className: "col-span-3 lg:col-span-1 lg:col-start-2",
+    background: (
+      <Card className="absolute top-10 left-10 origin-top rounded-none rounded-tl-md transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_0%,#000_100%)] group-hover:scale-105 border border-border border-r-0">
+        <CardHeader>
+          <CardTitle>Letter to Self</CardTitle>
+          <CardDescription>
+            Reflect on your journey and write to your future self.
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="-mt-4">
+          <Label>Your message</Label>
+          <Input
+            type="text"
+            placeholder="Dear future me..."
+            className="w-full focus-visible:ring-0 focus-visible:ring-transparent"
+          />
+        </CardContent>
+      </Card>
     ),
   },
 ];
