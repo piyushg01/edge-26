@@ -26,7 +26,7 @@ export const NAV_LINKS = [
       {
         title: "Letter to Self",
         tagline: "Write a letter to your future self.",
-        href: "https://example.com/letter-to-self",
+        href: "https://abhivriddhi-letter-to-self.vercel.app/",
         icon: Mail,
       },
     ],
