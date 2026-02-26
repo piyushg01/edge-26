@@ -35,7 +35,7 @@ export const COMPANIES = [
   },
   {
     name: "EduOptions",
-    logo: "/assets/eduooptions1.png",
+    logo: "/assets/eduooptions.png",
   },
 ];
 
