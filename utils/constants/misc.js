@@ -12,9 +12,9 @@ export const PAGINATION_LIMIT = 10;
 
 /* =======================
    SPONSORS
-   IMPORTANT:
-   - All logos MUST exist inside /public/assets
-   - Filenames must match exactly
+   RULES:
+   - Logos MUST be inside /public/assets
+   - Filenames MUST match exactly
 ======================= */
 export const COMPANIES = [
   {
@@ -28,6 +28,14 @@ export const COMPANIES = [
   {
     name: "My Equation",
     logo: "/assets/my-equation.png",
+  },
+  {
+    name: "Campus Times",
+    logo: "/assets/campus-times.png",
+  },
+  {
+    name: "EduOptions",
+    logo: "/assets/eduooptions1.png",
   },
 ];
 

@@ -99,7 +99,7 @@ const HomePage = () => {
                         width={1080}
                         height={1080}
                         quality={100}
-                        className="w-28 h-auto"
+                        className={company.name === "EduOptions" ? "w-40 h-auto" : "w-28 h-auto"}
                       />
                     </li>
                   ))}
