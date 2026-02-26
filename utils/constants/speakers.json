@@ -11,7 +11,7 @@
     },
     {
         "name": "Paras Atal",
-        "image": "speakers/paras_atal.jpg",
+        "image": "/speakers/Paras atal.jpeg",
         "description": "Paras Atal, SDE @ BNY and digital creator, shares practical insights on choosing the right career path across tech, non-tech, and alternative domains while building a strong personal brand alongside technical growth. He guides students on planning internships and projects strategically and navigating career confusion with clarity and confidence."
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "name": "Sohail S",
-        "image": "speakers/sohail_s.jpg",
+        "image": "/speakers/Sohail.jpeg",
         "description": "Sohail S, Technical Trainer and Corporate & Academic Training Expert, conducts a focused workshop on creating professional resumes using AI tools. The session covers writing impactful resume bullet points, tailoring resumes for specific roles, analyzing resumes with ATS checkers, and structuring them effectively for placements and internships."
     }
 ]

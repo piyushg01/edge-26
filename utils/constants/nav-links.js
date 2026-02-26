@@ -24,7 +24,7 @@ export const NAV_LINKS = [
         icon: CalendarFold,
       },
       {
-        title: "Letter to Self",
+        title: "Dear Future Me",
         tagline: "Write a letter to your future self.",
         href: "https://abhivriddhi-letter-to-self.vercel.app/",
         icon: Mail,

@@ -164,7 +164,7 @@ export const CARDS = [
   },
   {
     Icon: Mail,
-    name: "Letter to Self",
+    name: "Dear Future Me",
     description: "Write a letter to your future self.",
     href: "https://abhivriddhi-letter-to-self.vercel.app/",
     cta: "Write Now",
@@ -172,7 +172,7 @@ export const CARDS = [
     background: (
       <Card className="absolute top-10 left-10 origin-top rounded-none rounded-tl-md transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_0%,#000_100%)] group-hover:scale-105 border border-border border-r-0">
         <CardHeader>
-          <CardTitle>Letter to Self</CardTitle>
+          <CardTitle>Dear Future Me</CardTitle>
           <CardDescription>
             Reflect on your journey and write to your future self.
           </CardDescription>
