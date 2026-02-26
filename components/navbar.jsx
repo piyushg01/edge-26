@@ -168,13 +168,13 @@ const Navbar = () => {
             ) : (
               <div className="flex items-center gap-x-4">
                 <Link 
-                  href="/auth/" 
+                  href="https://learner.vierp.in/" 
                   className={cn(
                     buttonVariants({ size: "sm" }),
                     "bg-[#EF4444] text-white font-semibold hover:bg-[#DC2626] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(239,68,68,0.4)] transition-all duration-200 rounded-full px-6"
                   )}
                 >
-                  Sign In
+                  Register
                   <ZapIcon className="size-3.5 ml-1.5 text-white fill-white" />
                 </Link>
               </div>

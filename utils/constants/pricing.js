@@ -12,7 +12,7 @@ export const PLANS = [
       { text: "Speaker Session" },
       { text: "Jamming Session (Band / Standup)" },
     ],
-    link: "https://learner.vierp.in/event/EDGE2024",
+    link: "https://learner.vierp.in/",
   },
   {
     name: "EDGE + MOCK GDPI",
@@ -29,7 +29,7 @@ export const PLANS = [
       { text: "Speaker Sessions" },
       { text: "Personal Branding" },
     ],
-    link: "https://learner.vierp.in/event/EDGE-With-Mock-GDPI2024",
+    link: "https://learner.vierp.in/",
   },
   {
     name: "MOCK GDPI",
@@ -43,7 +43,7 @@ export const PLANS = [
       { text: "Group Discussions" },
       { text: "Personal Interviews" },
     ],
-    link: "https://learner.vierp.in/event/MOCK-GDPI2024",
+    link: "https://learner.vierp.in/",
   },
 ];
 

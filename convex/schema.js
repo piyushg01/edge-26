@@ -7,6 +7,7 @@ const schema = defineSchema({
   users: defineTable({
     name: v.string(),
     prn: v.number(),
+    phone: v.string(),
     ticket: v.union(
       v.literal("EDGE"),
       v.literal("EDGE + MOCK GDPI"),
@@ -16,7 +17,8 @@ const schema = defineSchema({
     email: v.string(),
   })
     .index("by_email", ["email"])
-    .index("by_prn", ["prn"]),
+    .index("by_prn", ["prn"])
+    .index("by_phone", ["phone"]),
 
   sessions: defineTable({
     name: v.union(v.literal("Day 1"), v.literal("Day 2"), v.literal("Day 3")),

@@ -17,22 +17,22 @@ const SignUpCard = ({ setState }) => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [ticket, setTicket] = useState("EDGE");
-  const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
   const [pending, setPending] = useState(false);
   const { signIn } = useAuthActions();
   const [error, setError] = useState("");
   const [prn, setPrn] = useState("");
+  const [phone, setPhone] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password !== confirmPassword) return setError("Passwords do not match");
     setPending(true);
+    // Use phone as password
     signIn("password", {
       name,
       email,
       prn: parseInt(prn),
-      password,
+      phone,
+      password: phone,
       ticket,
       flow: "signUp",
     })
@@ -45,7 +45,7 @@ const SignUpCard = ({ setState }) => {
       <CardHeader className="px-0 pt-0">
         <CardTitle>Create an Account</CardTitle>
         <CardDescription>
-          Use your email or another service to continue
+          Your phone number will be used as your password
         </CardDescription>
       </CardHeader>
       {!!error && (
@@ -80,6 +80,14 @@ const SignUpCard = ({ setState }) => {
             placeholder="Enter PRN"
             required
           />
+          <Input
+            type="tel"
+            disabled={pending}
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            placeholder="Enter Phone Number (will be used as password)"
+            required
+          />
           <Select onValueChange={setTicket} value={ticket}>
             <SelectTrigger>Select Ticket</SelectTrigger>
             <SelectContent>
@@ -89,22 +97,6 @@ const SignUpCard = ({ setState }) => {
               <SelectItem value="ADMIN">ADMIN</SelectItem>
             </SelectContent>
           </Select>
-          <Input
-            type="password"
-            disabled={pending}
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            placeholder="Password"
-            required
-          />
-          <Input
-            type="password"
-            disabled={pending}
-            value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
-            placeholder="Confirm Password"
-            required
-          />
 
           <Button
             type="submit"
