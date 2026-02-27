@@ -166,7 +166,7 @@ export const CARDS = [
     Icon: Mail,
     name: "Dear Future Me",
     description: "Write a letter to your future self.",
-    href: "https://abhivriddhi-letter-to-self.vercel.app/",
+    href: "https://aether-capsule-one.vercel.app/",
     cta: "Write Now",
     className: "col-span-3 lg:col-span-1 lg:col-start-2",
     background: (
